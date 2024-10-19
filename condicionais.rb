@@ -54,6 +54,8 @@ else
 end
 
 # Modificador de linha (if/unless em uma linha)
+temperatura = 10
+previsao_sol = false
 puts 'Está frio!' if temperatura < 15
 puts 'Leve guarda-chuva' unless previsao_sol
 
