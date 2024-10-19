@@ -5,6 +5,7 @@ end
 
 # Chamando a função
 saudacao('Maria') # Imprime: Olá, Maria!
+saudacao # Imprime: Olá, Mundo!
 
 # Função com valor padrão
 def soma(a, b = 0)
