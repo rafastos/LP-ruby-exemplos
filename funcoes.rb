@@ -1,5 +1,5 @@
-# Função básica
-def saudacao(nome)
+# Função com parâmetro default, caso não seja passado parâmetro será executado com o valor padrão
+def saudacao(nome = 'Mundo')
   puts "Olá, #{nome}!"
 end
 
