@@ -35,7 +35,7 @@ puts multiplicar_por.call(5) # Imprime: 15
 # Lambda com argumentos padrão
 saudacao = ->(nome = 'Visitante') { "Bem-vindo, #{nome}!" }
 puts saudacao.call         # Imprime: Bem-vindo, Visitante!
-puts saudacao.call('Ana')  # Imprime: Bem-vindo, Ana!
+puts saudacao.call('Bia')  # Imprime: Bem-vindo, Bia!
 
 # Lambda como closure
 def criar_contador
