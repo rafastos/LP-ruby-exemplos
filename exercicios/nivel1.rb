@@ -53,3 +53,8 @@ def summation(num)
   1.upto(num) { |n| sum += n }
   sum
 end
+
+# Crie uma função que receba um número inteiro como argumento e retorne "Par" para números pares ou "Ímpar" para números ímpares.
+def even_or_odd(number)
+  number.even? ? 'Par' : 'Ímpar'
+end
