@@ -9,5 +9,5 @@ OFFSET = 75
 GRID_SIZE = CELL_SIZE * CELL_COUNT
 
 # Cores utilizadas no jogo
-GREEN = '#ADC460'      # Verde claro para o fundo
-DARK_GREEN = '#2B3318' # Verde escuro para a cobra e bordas
+GREEN = '#ADC460'.freeze      # Verde claro para o fundo
+DARK_GREEN = '#2B3318'.freeze # Verde escuro para a cobra e bordas
